@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap");
+
+h3 {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  color: aliceblue;
+  border: 3px solid rgb(251, 255, 0);
+  text-align: center;
+  border-radius: 7px;
+  padding: 10px;
+  width: 320px;
+  display: inline-block;
+  margin-left: 135px;
+  font-size: 17px;
+}
+
+.space {
+  border: none;
+  margin: 50px;
+}
+
+.boxtext {
+  margin-right: 10px;
+}
+
+.boxtext1 {
+  margin-right: 48.5px;
+}
+
+.boxtext2 {
+  margin-right: 20px;
+}
+
+input[type="text"] {
+  width: 200px;
+}
+
+input[type="password"] {
+  width: 200px;
+}
+
+.grettings {
+  font-family: "Nunito", sans-serif;
+  border: 3px solid #eeb808;
+  border-radius: 15px;
+  padding: 14px;
+  display: inline-block;
+  width: 470px;
+  margin-bottom: 10px;
+}
+
+.grettings {
+  /* Standard syntax*/
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.t {
+  margin-left: 5px;
+}
+
+.leadd {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.class-success {
+  color: green;
+}
+.class-fail {
+  color: red;
+}
+.class-special {
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2.5vmin;
+}
