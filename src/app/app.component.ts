@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
     showMessage: boolean = false;  
     namex: any;
     lasttname: any;
-    public slidein='grettings leadd'
+    slidein='grettings leadd';
     fontSize: number = 30;
     max: string = "bold";
 
